@@ -1,6 +1,6 @@
 # MarronDev
 Página web en proceso para Chocolates Marrón CL
 
-:chocolate: 
+:coffe: 
 
 By: Felipe Guajardo Núñez ~
