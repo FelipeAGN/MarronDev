@@ -1,0 +1,47 @@
+.mediaYubicacion{
+  height: 30px;
+  background-color: #632c0e !important;
+  width: 100%;
+}
+
+.rowHeader{
+  width: 100%;
+  height: 100%;
+  padding-top: 3px;
+  color: white !important;
+}
+
+
+.col1{
+  width: 30%;
+  display: inline-flex;
+}
+
+.col2{
+  width: 70%;
+  display: inline-flex;
+  padding-left: 200px;
+
+}
+
+.emblema{
+  /*margin-left: 65px;
+*/
+  color: #ffff !important;
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  padding-left: 105px;
+  padding-right: 10px;
+  text-decoration: none;
+
+}
+
+.RSSheader{
+  color: white !important;
+  font-family: 'Roboto';
+  font-weight: 300;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+
+}

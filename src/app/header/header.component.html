@@ -1,0 +1,121 @@
+<nav class="navbar navbar-light navbar-expand-md bg-marronNavbarColor justify-content-center sticky">
+  <a class="navbar-brand" href="/">
+    <img class="logo" src="/assets/logomarron.png" alt="Logo Marrón">
+  </a>
+    <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="navMarronStyle nav-link" routerLink="/inicio">Inicio</a>
+            </li>
+
+            <li class="nav-item" routerLinkActive="active">
+              <div class="dropdown">
+
+                <button class="navMarronStyle dropbtn">Productos Marrón</button>
+
+                <div class="dropdown-content">
+                  <a class="dropdown-item" routerLink="/productos">Preferidos de Marrón</a>
+                  <a class="dropdown-item " >Confites y Dulces</a>
+                  <a class="dropdown-item " href="#">Chocolate Puro</a>
+                  <a class="dropdown-item " href="#">Chocolatería saludable</a>
+                  <a class="dropdown-item " href="#">Servicios y Regalos</a>
+
+                </div>
+              </div>
+            </li>
+
+
+
+            <!--
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/productos">Productos Marrón</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>-->
+            <li class="nav-item" routerLinkActive="active">
+                <a class="navMarronStyle nav-link" routerLink="/contacto">Contacto</a>
+            </li>
+        </ul>
+
+        <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
+          <a href="/">
+            <div class="container" style="font-size:1.8rem; color:#7d0813;">
+              <fa-icon [icon]="['fab', 'instagram']"></fa-icon>
+            </div>
+          </a>
+
+          <a href="/">
+            <div class="container" style="font-size:1.8rem;color:#0062cc;">
+                <fa-icon [icon]="['fab', 'facebook']"></fa-icon>
+            </div>
+          </a>
+
+          <a href="/">
+            <div class="container" style="font-size:1.6rem;color:#007bffe6">
+              <fa-icon [icon]="['fas', 'paper-plane']"></fa-icon>
+            </div>
+          </a>
+
+        </ul>
+
+    </div>
+</nav>
+
+<!--
+<nav class="navbar navbar-expand-md navbar-light">
+  <a class="navbar-brand" href="/">
+    <img class="logo" src="/assets/logomarron.png" alt="Logo Marrón">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/home">Home</a>
+      </li>
+
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/productos">Productos Marrón</a>
+      </li>
+
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/contacto">Contacto</a>
+      </li>
+
+      <p>
+        <span>
+          <div class="containerRSS">
+
+              <a href="facebook.com/chocolatesmarron" class="fa fa-facebook"></a>
+              <a href="instagram.com/chocolatesmarron" class="fa fa-instagram"></a>
+
+            </div>
+
+        </span>
+      </p>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</nav> -->

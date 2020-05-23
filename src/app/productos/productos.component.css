@@ -1,0 +1,145 @@
+
+.presentacionImg{
+  max-height: 300px;
+  width: 100%;
+}
+
+.alineador{
+  padding-top: 10px;
+}
+
+.main-title-chocolates{
+  height: 90px;
+  background-color: #6b523d;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+  color: #e1dbdb;
+  font-size: 2.7rem;
+}
+
+
+.main-title-gluten{
+  height: 50px;
+  background-color: #a17b5c;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+.main-title-trufas{
+  height: 50px;
+  background-color: #a17b5c;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+
+
+.main-title-dulces{
+  height: 50px;
+  background-color: #a17b5c;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+.main-title-azucar{
+  height: 50px;
+  background-color: #a17b5c;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+.main-title-regalos{
+  height: 90px;
+  background-color: #6b523d;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+  color: #e1dbdb;
+  font-size: 2.7rem;
+
+
+}
+
+.main-title-cacao{
+  height: 50px;
+  background-color: #a17b5c;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+.title{
+  text-align: left;
+  font-size: 2.2rem;
+  font-style: inherit;
+  width: 100%;
+
+}
+
+.spacing-card{
+  margin: 8px 8px 8px 8px;
+  width: 10rem;
+}
+
+.mediaYubicacion{
+  height: 60px;
+  background-color: #a17b5c;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 8px;
+  text-align: center;
+
+}
+
+
+
+.container-fluid{
+  padding: 50px 90px 30px 90px;
+  width: 100%;
+}
+
+
+
+
+
+
+.subtitle{
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+
+.dropwdown.menu{
+  height: 300px;
+  width: 600px;
+}
+
+.espacio-columnas{
+  padding-bottom: 15px;
+}
+
+.categoria{
+  font-size: 20px;
+  padding-bottom: 2px;
+}
+
+.itemAligner{
+  text-align: left;
+  font-size: 14px;
+}
+
+.posicionamientoItems{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+/**/

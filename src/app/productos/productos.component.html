@@ -1,0 +1,194 @@
+<!--
+
+
+<div class="container-fluid">
+
+    <div class="row">
+
+
+
+
+      <div class="col-lg-6 alineador">
+          <div class="card mb-3">
+            <img class="card-img-top presentacionImg" src="/assets/varios.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+
+        </div>
+
+
+  </div>
+
+</div>
+
+
+
+
+<!-- productos -->
+<!--
+  <div class="jumbotron">
+    <div class="main-title-chocolates">
+      <h2 class="display-3 subtitle">Lo mejor de Marrón</h2>
+    </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 mx-auto my-5" *ngFor="let card of MarronBestProducts">
+            <div class="card spacing-card" style="width: 16rem;">
+              <img class="card-img-top" [src]="card.img" alt="Card image cap">
+              <div class="card-body">
+                <h3>{{card.title}}</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
+  <div class="jumbotron">
+    <div class="main-title-chocolates">
+      <h2 class="display-3 subtitle">Tipos de Chocolate</h2>
+    </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 mx-auto my-5" *ngFor="let card of cardsTipoDeChocolate">
+            <div class="card spacing-card" style="width: 16rem;">
+              <img class="card-img-top" [src]="card.img" alt="Card image cap">
+              <div class="card-body">
+                <h3>{{card.title}}</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+<!--
+<div class="jumbotron">
+    <div class="main-title-chocolates">
+      <h2 class="display-3 subtitle">Tipos de Chocolate</h2>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-3 mx-auto my-5" *ngFor="let card of cardsTipoDeChocolate">
+          <div class="card spacing-card" style="width: 16rem;">
+              <img class="card-img-top" [src]="card.img" alt="Card image cap">
+            <div class="card-body">
+              <h3>{{card.title}}<h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  -->
+<!--
+
+<div class="jumbotron">
+    <div class="main-title-chocolates">
+      <h2 class="display-3 subtitle">Dulcería</h2>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-3 mx-auto my-5" *ngFor="let card of itemDulces">
+          <div class="card spacing-card" style="width: 16rem;">
+              <img class="card-img-top" [src]="card.img" alt="Card image cap">
+            <div class="card-body">
+              <h3>{{card.title}}<h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+
+
+<div class="jumbotron">
+    <div class="main-title-chocolates">
+      <h2 class="display-3 subtitle">Wellness</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mx-auto my-5" *ngFor="let card of itemSaludables">
+          <div class="card spacing-card" style="width: 16rem;">
+              <img class="card-img-top" [src]="card.img" alt="Card image cap">
+            <div class="card-body">
+              <h3>{{card.title}}<h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+<div class="jumbotron">
+    <div class="main-title-chocolates">
+      <h2 class="display-3 subtitle">Regalos</h2>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-3 mx-auto my-5" *ngFor="let card of cardsRegalos">
+          <div class="card spacing-card" style="width: 16rem;">
+              <img class="card-img-top" [src]="card.img" alt="Card image cap">
+            <div class="card-body">
+              <h3>{{card.title}}</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+
+<div class="jumbotron">
+    <div class="main-title-chocolates">
+      <h2 class="display-3 subtitle">Servicios</h2>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-3 mx-auto my-5" *ngFor="let card of cardsServicios">
+          <div class="card spacing-card" style="width: 16rem;">
+              <img class="card-img-top" [src]="card.img" alt="Card image cap">
+            <div class="card-body">
+              <h3>{{card.title}}</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+-->
