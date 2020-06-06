@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import {AppComponent} from './app.component';
-import { ProductosComponent } from './productos/productos.component';
+import { RouterModule } from '@angular/router';
+
 
 
 @NgModule({
